@@ -9,6 +9,14 @@ package adapter;
 //All calls to EnemyAttacker methods are sent
 //instead to methods used by EnemyRobot
 
+/**
+ * 
+ * ADAPTER
+ * Convert the interface of a class into another class interface clients expect.
+ * Adapter lets classes work together that couldn't otherwise because of 
+ * imcompatible interfaces.
+ *
+ */
 public class EnemyRobotAdapter implements EnemyAttacker{
 
 	EnemyRobot theRobot;

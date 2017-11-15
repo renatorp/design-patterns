@@ -16,7 +16,7 @@ public class TestEnemyAttackers{
 		fredTheRobot.walkForward();
 		fredTheRobot.smashWithHands();
 		System.out.println();
-		 
+		
 		System.out.println("The Enemy Tank");
 		
 		rx7Tank.assignDriver("Frank");
